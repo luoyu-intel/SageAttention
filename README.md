@@ -102,7 +102,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install auto-round-lib
 
 # 3. Install SageAttention (CUDA compilation skipped automatically on XPU)
-git clone https://github.com/luoyu-intel/SageAttention.git
+git clone https://github.com/thu-ml/SageAttention.git
 cd SageAttention
 python setup.py install
 ```
