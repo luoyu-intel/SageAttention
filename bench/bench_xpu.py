@@ -57,7 +57,3 @@ torch.xpu.synchronize()
 t = (time.time() - st) / N * 1000
 
 print(f"Latency: {t:.3f} ms")
-
-
-if __name__ == "__main__":
-    main()
